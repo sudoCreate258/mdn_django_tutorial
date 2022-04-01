@@ -1,0 +1,2 @@
+./makemigrate
+./migrate
