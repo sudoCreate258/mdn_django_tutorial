@@ -80,3 +80,10 @@ class BookInstance(models.Model):
     # methods
     def __str__(self):
         return f'{self.id} ({self.book.title})'
+    def checkout_book(name)
+        # check if available
+        # check if user is eligible
+        # populate other portions
+        record = BookInstance(name)
+        # save into DB
+        record.save()
